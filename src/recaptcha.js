@@ -131,7 +131,7 @@ export default class ReCAPTCHA extends React.Component {
     // delete the temporary node after reset will be done
     setTimeout(() => {
       document.body.removeChild(temporaryNode);
-    }, 5000);
+    }, 50);
   }
 
   handleRecaptchaRef(elem) {
